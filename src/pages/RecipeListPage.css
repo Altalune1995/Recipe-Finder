@@ -1,0 +1,10 @@
+/* In RecipeListPage.css */
+
+.search-bar {
+    background-color: lightgray;
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }

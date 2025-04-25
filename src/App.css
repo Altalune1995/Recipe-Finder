@@ -1,0 +1,42 @@
+/* app.css */
+
+.app {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.recipe-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-card ul li {
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
